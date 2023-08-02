@@ -16,9 +16,9 @@ const S = {
 };
 
 function Button({
-  variant,
+  variant = ButtonTypes.Variant.DEFAULT,
   icon,
-  iconPosition,
+  iconPosition = ButtonTypes.IconPosition.LEFT,
   children,
   ...buttonProps
 }: ButtonTypes.Props) {

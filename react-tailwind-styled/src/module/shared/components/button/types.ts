@@ -2,6 +2,7 @@ import { ButtonHTMLAttributes, ReactNode } from "react";
 
 namespace ButtonTypes {
   export enum Variant {
+    DEFAULT = "DEFAULT",
     PRIMARY = "PRIMARY",
   }
 
